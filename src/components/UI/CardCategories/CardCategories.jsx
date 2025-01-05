@@ -1,16 +1,16 @@
 import React from "react";
 import "./CardCategories.css";
 
-function CardCategories() {
+function CardCategories({ src, alt, discription }) {
 	return (
-		<div className="card-categories">
+		<>
 			<img
 				className="card-categories__img"
-				src="../../public/cards/Fertilizer.png"
-				alt=""
+				src={src}
+				alt={alt}
 			/>
-			<h2 className="card-categories__paragraph">Text</h2>
-		</div>
+			<h2 className="card-categories__paragraph">{discription}</h2>
+		</>
 	);
 }
 

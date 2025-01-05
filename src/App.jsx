@@ -7,7 +7,8 @@ function App() {
 
   return <div className="app">
     <Button />
-    <CardCategories />
+    <div className="divs"><CardCategories /><CardCategories /><CardCategories /></div>
+
   </div>
 
 }
