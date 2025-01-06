@@ -1,11 +1,13 @@
 .card-categories {
-  width: 316px;
-  height: 392px;
   display: flex;
   flex-direction: column;
+  /* Вертикальное расположение внутри карточки */
   align-items: center;
-  justify-content: space-between;
+  /* Центрирование содержимого по горизонтали */
   gap: 20px;
+  /* Расстояние между картинкой и текстом */
+  width: 316px;
+  /* Фиксированная ширина карточки */
 }
 
 .card-categories__img {
@@ -15,11 +17,10 @@
 }
 
 .card-categories__paragraph {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
   text-align: center;
-  color: var(--black);
+  color: black;
   margin: 0;
 }

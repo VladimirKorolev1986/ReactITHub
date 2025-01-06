@@ -1,6 +1,13 @@
 .list-categories {
   display: flex;
   flex-direction: row;
+  /* Горизонтальное расположение карточек */
   justify-content: center;
+  /* Центрирование карточек */
+  align-items: flex-start;
+  /* Выравнивание карточек по верхнему краю */
   gap: 32px;
+  /* Расстояние между карточками */
+  flex-wrap: wrap;
+  /* Перенос карточек на следующую строку при нехватке места */
 }
